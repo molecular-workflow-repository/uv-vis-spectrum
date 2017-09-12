@@ -1,0 +1,14 @@
+name: uv-vis-spectrum
+authors:
+ - Aaron Virshup: Autodesk Research
+contributors:
+ - "@avirshup"
+description: Calculate the uv-vis absorption spectrum of a small molecule.
+methods: |
+  This workflow first samples the conformations of a given molecule 
+  at finite temperature using the GAFF forcefield with AM1-BCC charges, then
+  uses CAS(2x2)-SA3 to calculate the lowest excited state transition transition
+  moment.
+keywords:
+  - spectroscopy
+  - small molecule
